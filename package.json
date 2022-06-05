@@ -1,0 +1,11 @@
+{
+  "name": "apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "open_browser": "echo 'Open browser in http://localhost:8080'",
+    "setup": "yarn open_browser",
+    "dev:pokedex": "yarn setup && cd ./apps/pokedex && lein run"
+  }
+}
